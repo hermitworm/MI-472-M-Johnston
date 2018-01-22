@@ -5,13 +5,17 @@
 <body>
 <form action=process.php>
 Name: <input type="text" /> <br>
+<p></p>
 Which would you prefer: <br>
 <input type="radio" name="shipmethod" value="Pickup at store"> Pickup at store<br>
 <input type="radio" name="shipmethod" value="Ship to home"> Ship to home<br>
-Which payment methods do you use when shopping for groceries (select all that apply): <br>
-<input type="checkbox" name="pref1" value="Use debit for groceries" />
-<input type="checkbox" name="pref2" value="Use credit for groceries" />
-<input type="checkbox" name="pref3" value="Use cash for groceries" />
+  <p></p>
+Which payment methods do you use when shopping for groceries (select all that apply):
+  <p></p>
+<input type="checkbox" name="debit"  /> Use debit for groceries
+<input type="checkbox" name="credit" /> Use credit for groceries
+<input type="checkbox" name="cash" /> Use cash for groceries
+  <p></p>
 Please enter your rewards pin: <br>
 <input type="password" name="pin" /> <br>
 <input type="submit" name="action" value="Submit"
